@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: poppins;
 }
 i,
 svg {
@@ -19,24 +19,25 @@ svg {
   height: 5rem;
   margin: 1rem 0.5rem;
   cursor: pointer;
+  border-radius: 7%;
 }
 .kick-pad {
-  background: rgb(160, 211, 224);
+  background:#6dd5ed;
 }
 .snare-pad {
-  background: rgb(224, 160, 208);
+  background: #78ffd6;
 }
 .hihat-pad {
-  background: rgb(224, 194, 160);
+  background: #ee9ca7;
 }
 .kick-pad.active {
-  background: rgb(59, 197, 231);
+  background: #2193b0;
 }
 .snare-pad.active {
-  background: rgb(218, 58, 178);
+  background:#CAC531;
 }
 .hihat-pad.active {
-  background: rgb(241, 158, 64);
+  background: #FF416C;
 }
 
 .sequencer {
@@ -76,6 +77,9 @@ svg {
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.5s ease;
+  border-radius: 10%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .pad {
@@ -90,11 +94,14 @@ svg {
   border: none;
   cursor: pointer;
   margin-top: 3rem;
+  border-radius: 5%;
 }
 
 select {
   padding: 1rem;
   font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .mute.active {
